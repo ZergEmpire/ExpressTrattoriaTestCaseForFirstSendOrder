@@ -47,7 +47,7 @@ public class TestBase {
         capabilities.setCapability("browserName", "chrome");
         capabilities.setCapability("browserVersion", "91.0");
 
-        capabilities.setCapability("selenoid:options", Map.<String, Object>of(
+        capabilities.setCapability("moon:options", Map.<String, Object>of(
                 "enableVNC", true,
                 "enableVideo", true
         ));
