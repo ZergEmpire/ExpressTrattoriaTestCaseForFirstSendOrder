@@ -54,7 +54,7 @@ public class TestBase {
         RemoteWebDriver driver = null;
         try {
             driver = new RemoteWebDriver(
-                    new URL("http://192.168.1.17:4444/wd/hub"),
+                    new URL("http://192.168.1.18:4444/wd/hub"),
                     capabilities
             );
         } catch (MalformedURLException e) {
